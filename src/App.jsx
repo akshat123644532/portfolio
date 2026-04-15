@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
    
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Name from "./components/name";
+import Name from "./components/Name";
 import Hobbies from "./components/hobbies";
 import Education from "./components/Education";
 
