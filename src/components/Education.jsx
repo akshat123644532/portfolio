@@ -21,7 +21,13 @@ const Education = () => {
       institution: "girukul international school",
       date: "2021 - 2022",
       isFeatured: false,
-    }
+    },
+       {
+      title: "class 12th,",
+      institution: "girukul international school",
+      date: "2021 - 2022",
+      isFeatured: false,
+    },
   ];
 
   return (
