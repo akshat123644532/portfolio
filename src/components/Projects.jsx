@@ -2,6 +2,16 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   const projects = [
+     {
+      id: 4, 
+      title: "CAMPUSCONNECT",
+      category: "Full Stack Development",
+      description:"CampusConnect is a full-stack MERN-based event management platform where students can discover, register, and manage college events while organizers can create and manage events with authentication, role-based access, and email notifications.",
+      tech: ["MongoDB", "Express", "React", "Node", "Tailwind"],
+      github: "https://github.com/akshat123644532/campusConnect", 
+      link: "https://campus-connect-nine-livid.vercel.app/", 
+      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=1000" 
+    },
     {
       id: 1, 
       title: "Airbnb Clone",
@@ -9,18 +19,8 @@ const Projects = () => {
       description: "A premium property booking platform with real-time search, Mapbox integration, and secure payment gateway.",
       tech: ["MongoDB", "Express", "React", "Node", "Tailwind"],
       link: "https://wondderlust-2.onrender.com/", 
+      github:"https://github.com/akshat123644532/wondderlust-",
       image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=1000" 
-    },
-    {
-      id: 2, 
-      title: "Amazon Clone", 
-      category: "E-Commerce Development",
-    
-      description: "A fully functional e-commerce platform featuring user authentication, product listings, a dynamic shopping cart, and integrated stripe payment processing.",
-      tech: ["React", "Firebase", "Stripe", "Context API", "Material-UI"], // Amazon ke hisaab se 
-      link: "#", 
-     
-      image: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&q=80&w=1000" 
     },
     {
       id: 3,
